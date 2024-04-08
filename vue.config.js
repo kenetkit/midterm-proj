@@ -5,7 +5,9 @@ module.exports = defineConfig({
 })
 
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/midterm/'
-    : '/'
+  publicPath: '/midterm/',
+  outputDir: 'dist',
+  assetsDir: 'assets',
+  indexPath: 'index.html',
+  filenameHashing: true,
 }
