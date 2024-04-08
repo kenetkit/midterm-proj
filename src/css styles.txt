@@ -1,0 +1,147 @@
+@media only screen and (max-width: 575px) { 
+  .img {
+    height: auto;
+  }
+
+  .headerCont { 
+    min-height: 200px; 
+  } 
+
+  .textHeader{
+  font-family: headerFont;
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+
+  .headerText{
+  color: white;
+  font-size: 22px;
+  text-align: left;
+  padding-top: 15px;
+  }
+
+  .latestCont { 
+    min-height: 170px; 
+  } 
+
+  .col-md-8{
+    /* border: 2px solid red; */
+    padding-top: 12px;
+    padding-right: 0px;
+  }
+
+  .col-md-4{
+    /* border: 2px solid red; */
+    padding-top: 12px;
+    padding-left: 0px;
+  }
+
+  .container-sm-fluid {
+    max-width: 100%;
+  }
+
+  .imgContLatest{
+    padding-left: 20px;
+    padding-top: 1px;
+  }
+
+  .down{
+    width: 110px;
+    height: 110px;
+    border-radius: 8px;
+    float: left;
+  }
+
+}
+
+@media only screen and (max-width: 375px) {
+  .img {
+  height: 200px;
+  max-height: 100%;
+  overflow: hidden; 
+  }
+
+  .img img {
+    transform: scale(1.5);
+  }
+
+  .latestCont { 
+    min-height: 170px; 
+  } 
+
+  .col-md-8{
+  /* border: 2px solid red; */
+  padding-top: 12px;
+  padding-right: 0px;
+  }
+
+  .col-md-4{
+    /* border: 2px solid red; */
+    padding-top: 12px;
+    padding-left: 0px;
+  }
+
+  .imgContLatest{
+    padding-left: 20px;
+    padding-top: 1px;
+  }
+
+  .down{
+    width: 110px;
+    height: 110px;
+    border-radius: 8px;
+    float: left;
+  }
+
+}
+
+@media only screen and (max-width: 990px) {
+  .img {
+  height: 200px;
+  max-height: 100%;
+  overflow: hidden;
+  }
+
+  .img img {
+    transform: scale(1.5); 
+  }
+
+  .col-md-8{
+    /* border: 2px solid red; */
+    padding-top: 12px;
+    padding-right: 6px;
+  }
+
+  .col-md-4{
+    /* border: 2px solid red; */
+    padding-top: 12px;
+    padding-left: 6px;
+  }
+
+  .headerText{
+  color: white;
+  font-size: 35px;
+  text-align: left;
+  padding-top: 15px;
+  }
+
+  .latestReleases{
+  color: white;
+  font-size: 18px;
+  text-align: left;
+  padding-top: 15px;
+  }
+
+  .imgContLatest{
+    padding-left: 20px;
+    padding-top: 1px;
+  }
+
+  .down{
+    width: 110px;
+    height: 110px;
+    border-radius: 8px;
+    float: left;
+  }
+
+}
